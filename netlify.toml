@@ -13,12 +13,4 @@ PORT=587
 [dev]
 command = "node app.js" # Comando para iniciar o servidor localmente durante o desenvolvimento
 
-[[redirects]]
-from = "/*"
-to = "/send"
-status = 200
 
-[[redirects]]
-from = "/.well-known/*"
-to = "/.well-known/:splat"
-status = 200
