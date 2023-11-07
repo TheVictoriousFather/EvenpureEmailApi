@@ -6,10 +6,10 @@ base = "app.js"  # Diretório raiz do seu projeto
 # Defina as variáveis de ambiente aqui (não inclua senhas ou chaves secretas diretamente no arquivo)
 # O Netlify permite configurar variáveis de ambiente em seu painel de controle.
 NODE_VERSION = "14" # Versão do Node.js
-EMAIL=geral@evenpure.pt
-EMAIL_KEY=geralevenpure
-HOST=mail.evenpure.pt
-PORT=587
+#EMAIL=geral@evenpure.pt
+#EMAIL_KEY=geralevenpure
+#HOST=mail.evenpure.pt
+#PORT=587
 [dev]
 command = "node app.js" # Comando para iniciar o servidor localmente durante o desenvolvimento
 
